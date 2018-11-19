@@ -1,3 +1,6 @@
+# Information
+This image allow you to start a slim c++ project app with make file.
+
 # Usage example
 ```
 #!/bin/bash
