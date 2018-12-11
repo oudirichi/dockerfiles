@@ -10,9 +10,12 @@ RUN apt-get install -y build-essential && \
     sudo apt-get -y autoremove && \
     sudo rm -rf /var/lib/apt/lists/*
 
+# NCURSE
+# RUN sudo apt-get install libncurses-dev -y && \
+#     sudo apt-get clean && \
+#     sudo apt-get -y autoremove && \
+#     sudo rm -rf /var/lib/apt/lists/*
+
 # Configure the main working directory
 RUN mkdir -p /app
 WORKDIR /app
-
-# Copy the main application
-# ADD . ./

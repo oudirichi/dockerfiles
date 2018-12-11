@@ -1,6 +1,5 @@
-FROM python:3.6
-
-RUN pip3 install pipenv
+FROM python:3.6-alpine
+RUN apk add --no-cache bash
 
 RUN mkdir -p /app
 WORKDIR /app

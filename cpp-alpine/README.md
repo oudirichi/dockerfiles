@@ -1,5 +1,5 @@
 # Information
-This image allow you to start a c++ project app with make file.
+This image allow you to start a slim c++ project app with make file.
 
 # Usage example
 ```
